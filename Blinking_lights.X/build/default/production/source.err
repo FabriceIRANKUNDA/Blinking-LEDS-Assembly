@@ -1,0 +1,6 @@
+Warning[205] C:\USERS\IRANK\MPLABXPROJECTS\BLINKING_LIGHTS.X\SOURCE.ASM 11 : Found directive in column 1. (org)
+Message[302] C:\USERS\IRANK\MPLABXPROJECTS\BLINKING_LIGHTS.X\SOURCE.ASM 21 : Register in operand not in bank 0.  Ensure that bank bits are correct.
+Message[305] C:\USERS\IRANK\MPLABXPROJECTS\BLINKING_LIGHTS.X\SOURCE.ASM 30 : Using default destination of 1 (file).
+Message[305] C:\USERS\IRANK\MPLABXPROJECTS\BLINKING_LIGHTS.X\SOURCE.ASM 39 : Using default destination of 1 (file).
+Message[305] C:\USERS\IRANK\MPLABXPROJECTS\BLINKING_LIGHTS.X\SOURCE.ASM 48 : Using default destination of 1 (file).
+Warning[205] C:\USERS\IRANK\MPLABXPROJECTS\BLINKING_LIGHTS.X\SOURCE.ASM 52 : Found directive in column 1. (END)
