@@ -1,7 +1,7 @@
 ; Authors NIYOMUKIZA Egide && IRANKUNDA Fabrice
 STATUS equ 03h
-RPZ equ 05
-RPO equ 06
+RP0 equ 05
+RP1 equ 06
 
 PORTB equ 06h
 TRISB equ 86h
@@ -11,16 +11,16 @@ COUNTER equ 20h
 org 00h
 
     clrw
-    BCF STATUS, RPZ
-    BCF STATUS, RPO
+    BCF STATUS, RP0
+    BCF STATUS, RP1
  
     CLRF PORTB
 
-    BSF STATUS, RPZ
+    BSF STATUS, RP0
     MOVLW 0x00 
     MOVWF TRISB
 
-    BCF STATUS, RPZ;
+    BCF STATUS, RP0;
 
 START	MOVLW b'00000010'
     MOVWF PORTB
